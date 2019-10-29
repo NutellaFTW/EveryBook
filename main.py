@@ -5,8 +5,8 @@ class Database:
     def __init__(self):
         self.connection = mysql.connect (
             host = "138.197.128.55",
-            user = "lucas",
-            passwd = "CfU35xWYQtPLdKMf",
+            user = "user",
+            passwd = "password",
             database = "every_book"
         )
         self.cursor = self.connection.cursor()
